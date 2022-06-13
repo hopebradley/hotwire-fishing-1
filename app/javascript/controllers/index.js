@@ -13,5 +13,8 @@ application.register("form", FormController)
 import HelloController from "./hello_controller.js"
 application.register("hello", HelloController)
 
+import RangeSliderController from "./range_slider_controller.js"
+application.register("range-slider", RangeSliderController)
+
 import SortLinkController from "./sort_link_controller.js"
 application.register("sort-link", SortLinkController)
